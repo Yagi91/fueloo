@@ -1,0 +1,39 @@
+@import "../vars/theme";
+
+.main{
+    padding:200px 50px;
+    height:100vh;
+    display:flex;
+    align-content: center;
+    justify-content: space-evenly;
+    gap:20px;
+    @media only screen and (max-width:$mobile){
+        flex-direction:column;
+        padding:50px
+    }
+}
+.main-text{
+    width:40vw;
+    h1{
+        font-size: calc(20px + (60 - 20) * ((100vw - 300px) / (1600 - 300)));
+    }
+    .main-lorem{
+        font-size: calc(14px + (19 - 14) * ((100vw - 300px) / (1600 - 300)));
+    }
+    @media only screen and (max-width:$mobile){
+        width:80vw;
+    }
+}
+
+.img-container{
+    width:35vw;
+    // width:700px;
+    padding-top: 20px;
+    .img{
+        max-width: 100%;
+        height: auto;
+    }
+    @media only screen and (max-width:$mobile){
+        width:80vw;
+    }
+}

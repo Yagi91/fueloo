@@ -1,0 +1,15 @@
+@import "../vars/theme";
+
+.footer{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:$bg-hero;
+    h1{
+        text-align:center;
+        color: #fff;
+        font-size: calc(50px + (100 - 50) * ((100vw - 300px) / (1600 - 300)));
+    }
+}

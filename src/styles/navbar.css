@@ -1,0 +1,30 @@
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #813405;
+  padding: 10px 20px;
+  height: 70px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100px;
+    border-top: 0px;
+    border-bottom: 5px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+/*# sourceMappingURL=navbar.css.map */

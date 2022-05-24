@@ -1,0 +1,58 @@
+.main {
+  padding: 200px 50px;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 50px;
+  }
+}
+
+.main-text {
+  width: 40vw;
+}
+
+.main-text h1 {
+  font-size: calc(20px + (60 - 20) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.main-text .main-lorem {
+  font-size: calc(14px + (19 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+@media only screen and (max-width: 768px) {
+  .main-text {
+    width: 80vw;
+  }
+}
+
+.img-container {
+  width: 35vw;
+  padding-top: 20px;
+}
+
+.img-container .img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .img-container {
+    width: 80vw;
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,24 @@
+.footer {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #d45113;
+}
+
+.footer h1 {
+  text-align: center;
+  color: #fff;
+  font-size: calc(50px + (100 - 50) * ((100vw - 300px) / (1600 - 300)));
+}
+/*# sourceMappingURL=footer.css.map */
