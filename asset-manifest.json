@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/fueloo/static/css/main.ab94b7b5.css",
-    "main.js": "/fueloo/static/js/main.28d391ad.js",
+    "main.js": "/fueloo/static/js/main.b3f3c635.js",
     "static/js/787.fd9a19b2.chunk.js": "/fueloo/static/js/787.fd9a19b2.chunk.js",
     "static/media/man2.jpg": "/fueloo/static/media/man2.04717baf7c0dd352a061.jpg",
     "static/media/man.jpg": "/fueloo/static/media/man.49c84ee77ba479c20ee4.jpg",
     "static/media/Lab.svg": "/fueloo/static/media/Lab.ffeabf8e6a0da6bfd5c8.svg",
     "index.html": "/fueloo/index.html",
     "main.ab94b7b5.css.map": "/fueloo/static/css/main.ab94b7b5.css.map",
-    "main.28d391ad.js.map": "/fueloo/static/js/main.28d391ad.js.map",
+    "main.b3f3c635.js.map": "/fueloo/static/js/main.b3f3c635.js.map",
     "787.fd9a19b2.chunk.js.map": "/fueloo/static/js/787.fd9a19b2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab94b7b5.css",
-    "static/js/main.28d391ad.js"
+    "static/js/main.b3f3c635.js"
   ]
 }
